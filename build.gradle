@@ -15,10 +15,14 @@ java {
 
 repositories {
 	mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'com.mite:semi-mite-spring-boot-starter:1.0.0'
+
+
+    implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
