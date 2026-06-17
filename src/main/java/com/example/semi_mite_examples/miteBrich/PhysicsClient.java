@@ -1,6 +1,6 @@
 package com.example.semi_mite_examples.miteBrich;
 
-import com.example.semi_mite_examples.objects.Particle;
+import com.example.semi_mite_examples.dto.Particle;
 import org.example.client.MiteClient;
 import org.example.memory.MiteArray;
 

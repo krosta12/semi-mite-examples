@@ -1,7 +1,7 @@
 package com.example.semi_mite_examples.component;
 
 import com.example.semi_mite_examples.miteBrich.PhysicsClient;
-import com.example.semi_mite_examples.objects.Particle;
+import com.example.semi_mite_examples.dto.Particle;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

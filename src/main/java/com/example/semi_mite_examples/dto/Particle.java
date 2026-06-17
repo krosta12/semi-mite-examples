@@ -1,4 +1,4 @@
-package com.example.semi_mite_examples.objects;
+package com.example.semi_mite_examples.dto;
 
 public class Particle {
     public float x;
