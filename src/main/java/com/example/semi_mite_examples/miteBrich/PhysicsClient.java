@@ -4,7 +4,7 @@ import com.example.semi_mite_examples.dto.Particle;
 import org.example.client.MiteClient;
 import org.example.memory.MiteArray;
 
-@MiteClient
+@MiteClient //if we don't know the file path, but we are know that it exists, mite will handle it automatically
 public interface PhysicsClient {
 
     void apply_explosion_force(

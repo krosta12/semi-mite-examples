@@ -1,8 +1,11 @@
 package com.example.semi_mite_examples.dto;
 
+import org.example.annotation.MiteStruct;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@MiteStruct
 public class User {
     public String name;
     public int age;

@@ -1,5 +1,8 @@
 package com.example.semi_mite_examples.dto;
 
+import org.example.annotation.MiteStruct;
+
+@MiteStruct
 public class Particle {
     public float x;
     public float y;

@@ -28,6 +28,9 @@ public class Example1 implements CommandLineRunner {
             float similarity = (float) engine.execute("calculate_cosine_similarity", vecA, vecB, len);
 
             System.out.printf("Result of cosine similarity for identical vectors: %.4f\n", similarity);
+
+
+
         }
     }
 }
